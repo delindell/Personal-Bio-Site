@@ -58,23 +58,24 @@ const createProjectCards = () => {
     let domString = '';
     for(let i = 0; i < projects.length; i++) {
         if(projects[i].available != false){
-    domString += `<div class="projectsPage">`
+    domString += `<div class="projectsCards">`
     domString +=    `<h3>${projects[i].title}</h3>`;
     domString +=    `<img src="${projects[i].screenshot}">`;
     domString +=    `<section>${projects[i].description}</section>`;
     domString +=    `<section>${projects[i].technologiesUsed}</section>`;
-    domString +=    `<p id="available">${projects[i].available}</p>`;
-    domString +=    `<a href="${projects[i].url}">GitHub</a>`;
-    domString +=    `<a href="${projects[i].githubUrl}">GITHUBURL</a>`
+    domString +=    `<p id="available"></p>`;
+    domString +=    `<section><a href="${projects[i].url}">GitHub</a></section>`;
+    domString +=    `<section><a href="${projects[i].githubUrl}">GITHUBURL</a></section>`;
     domString += `</div>`
-
         }
-    
-    console.log(projects[i].available);
-           // printToDom('projectsPage', domString);
+
     } 
     printToDom('projectsPage', domString); 
     }
     
 
-createProjectCards();
+const init = () => {
+  createProjectCards();
+}
+
+init();
