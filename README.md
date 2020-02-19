@@ -9,7 +9,7 @@ This project will eventually display all of the projects I have completed at my 
 ## How to run
 1. Clone down this repo
 
-1. Make sure you have http-server installed via npm. If not get it HERE.
+1. Make sure you have http-server installed via npm. If not get it [HERE](https://www.npmjs.com/package/http-server).
 
 1. In your command line run `hs -p 9999`
 
