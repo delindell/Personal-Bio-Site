@@ -5,14 +5,13 @@ const createProjectCards = () => {
   let domString = '';
   projects.getProjects().forEach((project) => {
     if (project.available !== false) {
-      domString += '<div class="projectsCards">';
-      domString += `<h3>${project.title}</h3>`;
-      domString += `<img src="${project.screenshot}">`;
-      domString += `<section>${project.description}</section>`;
-      domString += `<section>${project.technologiesUsed}</section>`;
-      domString += '<p id="available"></p>';
-      domString += `<section><a href="${project.url}">GitHub</a></section>`;
-      domString += `<section><a href="${project.githubUrl}">GITHUBURL</a></section>`;
+      domString += '<div class="card project-cards col-6 text-center">';
+      domString += `<h3 class="card-title">${project.title}</h3>`;
+      domString += `<img class="card-img-top project-img" src="${project.screenshot}" alt="Card image cap">`;
+      domString += '<div class="card-body justify-content-center">';
+      domString += `<p class="card-text">${project.description}</p>`;
+      domString += `<a class="btn btn-primary mt-2" id="gitHubBtn" href="${project.githubUrl}"><i class="fab fa-github"></i><a>`;
+      domString += '</div>';
       domString += '</div>';
     }
     utils.printToDom('projectsPage', domString);
