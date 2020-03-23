@@ -9,21 +9,31 @@
     <title>Davis Lindell Bio Site</title>
 </head>
 <body>
-    <!--Navigation-->
-    <nav>
-        <h1>Davis Lindell's Bio Website</h1>
-        <ul id="navLinks">
-            <li><a href="#bioPage" id="navToBio">Bio</a></li>
-            <li><a href="#technologiesPage" id="navToTechnologies">Technologies</a></li>
-            <li><a href="#projectsPage" id="navToProjects">Projects</a></li>
-        </ul>
-    </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#bioPage"><img src="https://ca.slack-edge.com/T03F2SDTJ-UQUEELZA9-b05c885e34a5-512" id="bioPhoto" alt="Photo of Davis Lindell"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <h1>Davis Lindell's Awesome Bio Site</h1>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item ">
+                <a class="nav-link" href="#bioPage" id="navToBio">Bio</a>
+            <li class="nav-item ">
+              <a class="nav-link" href="#technologiesPage" id="navToTechnologies">Technologies <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projectsPage" id="navToProjects">Projects</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     <!--End Navigation-->
 
     <!--Primary View-->
-    <div class="bioTech">
+    <div id="bioTechContainer">
         <div class="fullPage" id="bioPage">
-            <h3>About Me</h3>
+            <h3>Who am I?</h3>
             <p>Hello! Thank you for visiting my personal bio site. My name is Davis Lindell.
                 I arrived in Nashville, TN by way of Louisville, KY in August of 2016.    
             </p>
@@ -33,13 +43,15 @@
                 In addition to this I have also worked as CNC operator and programmer at a woodworking
                 mill.
             </p>
-            <p>Learning new things has always been a passion of mine. With the current job climate
+            <p>Funnily enough, my first experience in computer programming was editing my own personal MySpace page 15+ years ago.
+                I always thought it was so cool to make the most obnoxious color changing gifs be the background of my pages.\
+                Who knew that one day, all these years later I would be applying what I learned all those
+                years ago and turning it into a career. If you were to have told me then that I would have found a passion in doing that, I would have said you were crazy. But here we are.
+                Learning new things has always been a passion of mine. With the current job climate
                 surrounding the technology industry here in Nashville getting into development just 
                 seems like the perfect move at the perfect time.
             </p>
         </div>
-    
-
     <div class="fullPage" id="technologiesPage">
         <h3>Technologies</h3>
         <ul>
