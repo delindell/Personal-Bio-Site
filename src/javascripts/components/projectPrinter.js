@@ -5,12 +5,12 @@ const createProjectCards = () => {
   let domString = '';
   projects.getProjects().forEach((project) => {
     if (project.available !== false) {
-      domString += '<div class="card project-cards">';
+      domString += '<div class="card project-cards col-6 text-center">';
+      domString += `<h3 class="card-title">${project.title}</h3>`;
       domString += `<img class="card-img-top project-img" src="${project.screenshot}" alt="Card image cap">`;
-      domString += '<div class="card-body">';
-      domString += `<h5 class="card-title">${project.title}</h5>`;
+      domString += '<div class="card-body justify-content-center">';
       domString += `<p class="card-text">${project.description}</p>`;
-      domString += `<a class="btn btn-primary" id="gitHubBtn" href="${project.githubUrl}"><i class="fab fa-github"></i><a>`;
+      domString += `<a class="btn btn-primary mt-2" id="gitHubBtn" href="${project.githubUrl}"><i class="fab fa-github"></i><a>`;
       domString += '</div>';
       domString += '</div>';
     }
