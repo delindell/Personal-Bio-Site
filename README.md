@@ -5,13 +5,13 @@ This is a website I created chronicling my time at Nashville Software School. It
 
 ## Screenshot
 
-###About Me
+### About Me
 ![personalBio](https://i.imgur.com/CekXF8o.png)
 
-###Technologies
+### Technologies
 ![personalBio](https://i.imgur.com/STQp2Mw.png)
 
-###Projects/Contact
+### Projects/Contact
 ![personalBio](https://i.imgur.com/hRwg4iT.png)
 
 ## How to run
