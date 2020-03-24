@@ -7,22 +7,61 @@ body {
 }
 
 nav {
+    position: fixed;
+    bottom: 0;
+    z-index: 9999;
     display: flex;
     justify-content: space-evenly;
     
     h1 {
         text-align: center;
+        margin-left: 150px;
+        span:hover {
+            color: green;
+        }
+        span {
+            font-weight: bolder;
+        }
     }
     #bioPhoto {
-        max-width: 100px;
-        max-height: 100px;
+        max-width: 200px;
+        max-height: 200px;
         border-radius: 50%;
+        margin-left: 100px;
+    } 
+    a:hover {
+        font-size: xx-large;
+        font-weight: bolder;
+        border: solid green 2px;
+        
+    }
+    a {
+        font-size: x-large;
+        color: blue;
     }
 
 }
 
-h1 {
+.projectsTitle {
+    color:snow;
     text-align: center;
+    margin-top: 15px;
+    font-size: 100px;
+    span {
+        font-weight: bolder;
+        text-decoration: underline;
+    }
+}
+
+#projectsPage {
+    margin-top: 75px;
+    margin-bottom: 50px;
+    #projectCards {
+        padding-top: 10px;
+        h2 {
+            padding-top: 10px;
+        }
+    }
 }
 
 // #projectsPage {
@@ -43,25 +82,74 @@ h1 {
 //     }
 // }
 
-h3 {
-    text-align: center;
-}
-
-h4 {
-    text-align: center;
-}
-
-// #bioTechContainer {
-//     display: flex;
-//     flex-direction: row;
-// }
-
 #bioPage {
+    color: snow;
     max-width: auto;
     margin: 50px;
     text-align: center;
+    h2{
+        margin-bottom: 20px;
+        margin-top: 20px;
+        font-size: 100px;
+    }
+    p {
+        font-size: 25px;
+    }
 }
 
 #technologiesPage {
-    margin: 10px;
+    h2{
+        text-align: center;
+        font-size: 100px;
+        span {
+            font-weight: bolder;
+            text-decoration: underline;
+        }
+    }
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: snow;
+    #technologyContainer {
+        display: flex;
+        flex-wrap: row;
+        justify-content: space-evenly;
+    } #babel {
+        margin-top: 40px;
+        p {
+            margin-top: 13px;
+        }
+    }
+   
+}
+
+.techImg {
+    text-align: center;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+#contactInfo {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-weight: bolder;
+    text-align: center;
+    background-color: snow;
+    h4:hover {
+        font-size: xx-large;
+        color: green;
+        text-decoration: underline;
+    }
+    p {
+        font-size: xx-large;
+    }
+    a {
+        font-size: xx-large;
+    }
+}
+
+footer {
+    text-align: center;
+    font-size: 25px;
+    padding: 25px;
 }
