@@ -10,21 +10,24 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#bioPage"><img src="https://ca.slack-edge.com/T03F2SDTJ-UQUEELZA9-b05c885e34a5-512" id="bioPhoto" alt="Photo of Davis Lindell"></a>
+        <img src="https://ca.slack-edge.com/T03F2SDTJ-UQUEELZA9-b05c885e34a5-512" id="bioPhoto" alt="Photo of Davis Lindell">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <h1>Davis Lindell's Awesome Bio Site</h1>
+        <h1>Davis Lindell's <span>Awesome</span> Bio Site</h1>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item ">
                 <a class="nav-link" href="#bioPage" id="navToBio">Bio</a>
             <li class="nav-item ">
-              <a class="nav-link" href="#technologiesPage" id="navToTechnologies">Technologies <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#technologiesPage" id="navToTechnologies">Technologies<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#projectsPage" id="navToProjects">Projects</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contactInfo" id="navToContact">Contact</a>
+              </li>
           </ul>
         </div>
       </nav>
@@ -32,7 +35,7 @@
 
     <!--Primary View-->
         <div class="fullPage" id="bioPage">
-            <h3>Who am I?</h3>
+            <h2>Who am I?</h2>
             <p>Hello! Thank you for visiting my personal bio site. My name is Davis Lindell.
                 I arrived in Nashville, TN by way of Louisville, KY in August of 2016.    
             </p>
@@ -52,7 +55,7 @@
             </p>
         </div>
     <div class="fullPage" id="technologiesPage">
-        <h3>Technologies</h3>
+        <h2><span>Tech</span>nologies</h2>
         <div id="technologyContainer">
             <div id="git" class="techImg">
                 <img src="https://github.com/delindell/Personal-Bio-Site/blob/master/TechIcons/git.png?raw=true" class="techImg" alt="Git" />
@@ -82,25 +85,49 @@
                 <img src="https://github.com/delindell/Personal-Bio-Site/blob/master/TechIcons/css.png?raw=true" class="techImg" alt="CSS3" />
                 <p>CSS3</p>
             </div>
-            <div id="git" class="techImg">
-                <img src="https://github.com/delindell/Personal-Bio-Site/blob/master/TechIcons/git.png?raw=true" class="techImg" alt="Git" />
-                <p>Git</p>
+            <div id="jquery" class="techImg">
+                <img src="https://github.com/delindell/Personal-Bio-Site/blob/master/TechIcons/jquery.png?raw=true" class="techImg" alt="JQuery" />
+                <p>JQuery</p>
+            </div>
+            <div id="javascript" class="techImg">
+                <img src="https://github.com/delindell/Personal-Bio-Site/blob/master/TechIcons/js.png?raw=true" class="techImg" alt="Javascript" />
+                <p>Javascript</p>
+            </div>
+            <div id="JSX" class="techImg">
+                <img src="https://github.com/delindell/Personal-Bio-Site/blob/master/TechIcons/jsx.png?raw=true" class="techImg" alt="JSX" />
+                <p>JSX</p>
+            </div>
+            <div id="npm" class="techImg">
+                <img src="https://github.com/delindell/Personal-Bio-Site/blob/master/TechIcons/npm.png?raw=true" class="techImg" alt="NPM" />
+                <p>NPM</p>
+            </div>
+            <div id="vsCode" class="techImg">
+                <img src="https://github.com/delindell/Personal-Bio-Site/blob/master/TechIcons/vscode.png?raw=true" class="techImg" alt="VSCode" />
+                <p>VSCode</p>
+            </div>
+            <div id="webpack" class="techImg">
+                <img src="https://github.com/delindell/Personal-Bio-Site/blob/master/TechIcons/webpack.png?raw=true" class="techImg" alt="WebPack" />
+                <p>WebPack</p>
             </div>
         </div>
     </div>
 
-    
+    <h2 class="projectsTitle"><span>Pro</span> jects</h2>
     <div class="fullPage d-flex flex-row justify-content-around" id="projectsPage"></div>
     
     <!--End Primary view-->
 
     <!--Footer-->
-    <footer class="page-footer">
+    <div class="page-footer" id="contactInfo">
         <h4>Contact Info</h4>
-        <li>
-            <ul><a href="daviselindell@gmail.com"><i class="far fa-envelope-open"></i>daviselindell@gmail.com</a></ul>
-            <ul><a href="https://github.com/delindell"><i class="fab fa-github"></a></ul>
-        </li>
+        <p class="phone"><i class="fas fa-phone"></i>  (502)-435-9443</p>
+        <p class="location"><i class="fas fa-thumbtack"></i>  Nashville Tennessee</p>
+        <a target="_blank" href="mailto:daviselindell@gmail.com"><i class="far fa-envelope-open"></i>   daviselindell@gmail.com</a></p>
+        <a href="https://github.com/delindell"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/davislindell/"><i class="fab fa-linkedin"></i></a>
+    </div>
+    <footer>
+        <p>Copyright &copy; Davis Lindell 2020</p>
     </footer>
 </body>
 </html>
