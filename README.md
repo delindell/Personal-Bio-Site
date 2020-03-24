@@ -1,16 +1,24 @@
 # Personal Bio Site
 
 ## Description
-This project will eventually display all of the projects I have completed at my time at NSS. Slowly it will grow into something awesome the more I learn in my time here.
+This is a website I created chronicling my time at Nashville Software School. It contains a tid-bit of information about myself, my interests, and my interest in computer programming. The site has a list of all the technologies I have learned at NSS thus far, and with more time it will grow ever larger. Also, it displays two projects I have completed during my time at NSS, (learn more about them on the site) and contains my contact information as well.
 
 ## Screenshot
-![personalBio](./screenshot/bio.png)
+
+###About Me
+![personalBio](https://i.imgur.com/CekXF8o.png)
+
+###Technologies
+![personalBio](https://i.imgur.com/STQp2Mw.png)
+
+###Projects/Contact
+![personalBio](https://i.imgur.com/hRwg4iT.png)
 
 ## How to run
 1. Clone down this repo
 
-1. Make sure you have http-server installed via npm. If not get it [HERE](https://www.npmjs.com/package/http-server).
+1. Navigate to the folder containing the cloned repo
 
-1. In your command line run `hs -p 9999`
+1. In your command line run `npm start`
 
-1. In your browser go to to `http://localhost:9999`
+1. In your browser go to to `http://localhost:8080`
