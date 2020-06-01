@@ -26,5 +26,14 @@
     "available": true,
     "url": "https://github.com/delindell/pet-adoption",
     "githubUrl": "https://github.com/delindell/pet-adoption"
+  },
+  "project4": {
+    "title": "La Baguette Resturant Monitoring App",
+    "screenshot": "https://i.imgur.com/1fw7TrW.png",
+    "description": "Chatty Messanger is an app that allows seperate users to message one another, delete messages, search and post gifs, all on this online forum type page.",
+    "technologiesUsed": "HTML5, CSS3, ES6 JavaScript, Firebase,",
+    "available": true,
+    "url": "https://la-baguette-cc.web.app/",
+    "githubUrl": "https://github.com/delindell/nutshell-stormtroopers-jedis"
   }
 }
