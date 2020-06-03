@@ -14,22 +14,22 @@
     "description": "Chatty Messanger is an app that allows seperate users to message one another, delete messages, search and post gifs, all on this online forum type page.",
     "technologiesUsed": "HTML5, SCSS, Vanilla JavaScript, Version Control with Github, ES6 Modules, JQuery",
     "available": true,
-    "url": "https://github.com/delindell/chatty-cobralily",
+    "url": "https://chatty-cobralily.web.app/",
     "githubUrl": "https://github.com/delindell/chatty-cobralily"
   },
   "project3": {
     "title": "My Pet Adoption Service",
     "screenshot": "https://github.com/delindell/pet-adoption/raw/master/screenshots/pets.png",
-    "description": "Chatty Messanger is an app that allows seperate users to message one another, delete messages, search and post gifs, all on this online forum type page.",
+    "description": "This App allows the user to view all the available pets for adoption, and sort them based on which type of animal they are.",
     "technologiesUsed": "HTML5, CSS3, Vanilla JavaScript",
     "available": true,
-    "url": "https://github.com/delindell/pet-adoption",
+    "url": "https://pet-adoption-f5f67.web.app/",
     "githubUrl": "https://github.com/delindell/pet-adoption"
   },
   "project4": {
     "title": "La Baguette Resturant Monitoring App",
     "screenshot": "https://i.imgur.com/1fw7TrW.png",
-    "description": "This App allows the resturant to keep track of employees, reservations, inventory and recipes among other things. ",
+    "description": "This App allows the resturant to keep track of employees, reservations, inventory and recipes among other things.",
     "technologiesUsed": "HTML5, CSS3, ES6 JavaScript, Firebase",
     "available": true,
     "url": "https://la-baguette-cc.web.app/",
