@@ -13,7 +13,8 @@ const createProjectCards = () => {
           domString += `<img class="card-img-top project-img" src="${project.screenshot}" alt="Card image cap">`;
           domString += '<div class="card-body justify-content-center">';
           domString += `<p class="card-text">${project.description}</p>`;
-          domString += `<a class="btn btn-primary mt-2" id="gitHubBtn" href="${project.githubUrl}"><i class="fab fa-github"></i><a>`;
+          domString += `<a class="btn btn-danger mt-2 mr-2" href="${project.url}">Deployed Link</a>`;
+          domString += `<a class="btn btn-primary mt-2" id="gitHubBtn" href="${project.githubUrl}"><i class="fab fa-github"></i></a>`;
           domString += '</div>';
           domString += '</div>';
         }
