@@ -56,10 +56,12 @@ nav {
 #projectsPage {
     margin-top: 75px;
     margin-bottom: 50px;
-    #projectCards {
+    .projectCards {
+        margin: 10px;
         padding-top: 10px;
         h2 {
             padding-top: 10px;
+            text-decoration: underline;
         }
     }
 }
@@ -155,6 +157,7 @@ nav {
 }
 
 footer {
+    color: snow;
     text-align: center;
     font-size: 25px;
     padding: 25px;
