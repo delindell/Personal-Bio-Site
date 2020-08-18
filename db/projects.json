@@ -1,38 +1,38 @@
 {
-  "project1": {
-    "title": "Pinteresting With Davis",
-    "screenshot": "https://i.imgur.com/5BBsMTk.png",
-    "description": "This project is a mock Pinterest App, where the user can complete full CRUD on multiple collections using Firebase for as our database.",
-    "technologiesUsed": "HTML5, SCSS, Vanilla JavaScript, Version Control with Github, ES6 Modules, JQuery, Firebase",
-    "available": true,
-    "url": "https://pinterest-39d69.web.app/",
-    "githubUrl": "https://github.com/delindell/pinterest"
+"project1": {
+  "title":"Pinteresting With Davis",
+  "screenshot":"https://i.imgur.com/5BBsMTk.png",
+  "description":"This project is a mock Pinterest App, where the user can complete full CRUD on multiple collections using Firebase for as our database.",
+  "technologiesUsed":"HTML5, SCSS, Vanilla JavaScript, Version Control with Github, ES6 Modules, JQuery, Firebase",
+  "available":true,
+  "url":"https://pinterest-39d69.web.app/",
+  "githubUrl":"https://github.com/delindell/pinterest"
   },
-  "project2": {
-    "title": "Chatty Messanger",
-    "screenshot": "https://github.com/delindell/chatty-cobralily/raw/master/screenshots/light-mode.png",
-    "description": "Chatty Messanger is an app that allows seperate users to message one another, delete messages, search and post gifs, all on this online forum type page.",
-    "technologiesUsed": "HTML5, SCSS, Vanilla JavaScript, Version Control with Github, ES6 Modules, JQuery",
-    "available": true,
-    "url": "https://chatty-cobralily.web.app/",
-    "githubUrl": "https://github.com/delindell/chatty-cobralily"
+  "project2":{
+  "title":"Chatty Messanger",
+  "screenshot":"https://github.com/delindell/chatty-cobralily/raw/master/screenshots/light-mode.png",
+  "description":"Chatty Messanger is an app that allows seperate users to message one another, delete messages, search and post gifs, all on this online forum type page.",
+  "technologiesUsed":"HTML5, SCSS, Vanilla JavaScript, Version Control with Github, ES6 Modules, JQuery",
+  "available":true,
+  "url":"https://chatty-cobralily.web.app/",
+  "githubUrl":"https://github.com/delindell/chatty-cobralily"
   },
-  "project3": {
-    "title": "My Pet Adoption Service",
-    "screenshot": "https://github.com/delindell/pet-adoption/raw/master/screenshots/pets.png",
-    "description": "This App allows the user to view all the available pets for adoption, and sort them based on which type of animal they are.",
-    "technologiesUsed": "HTML5, CSS3, Vanilla JavaScript",
-    "available": true,
-    "url": "https://pet-adoption-f5f67.web.app/",
-    "githubUrl": "https://github.com/delindell/pet-adoption"
+  "project3":{
+  "title":"Housplant-Topia",
+  "screenshot":"https://i.imgur.com/Pl4wFC5.png",
+  "description":"Keeping track of houseplants can be difficult. With different watering schedules, locations, and tendencies just being a few of the factors that can lead to unfortunate accidents (death). I wanted to make an app that allowed users to keep track of these plants, through various means, even getting reminders to water them",
+  "technologiesUsed":"HTML5, CSS3, JSES6+, ReactJs, SCSS, Firebase, ReactStrap",
+  "available":true,
+  "url":"https://houseplant-topia.web.app/",
+  "githubUrl":"https://github.com/delindell/houseplant-topia"
   },
-  "project4": {
-    "title": "La Baguette Resturant Monitoring App",
-    "screenshot": "https://i.imgur.com/1fw7TrW.png",
-    "description": "This App allows the resturant to keep track of employees, reservations, inventory and recipes among other things.",
-    "technologiesUsed": "HTML5, CSS3, ES6 JavaScript, Firebase",
-    "available": true,
-    "url": "https://la-baguette-cc.web.app/",
-    "githubUrl": "https://github.com/delindell/nutshell-stormtroopers-jedis"
+  "project4":{
+  "title":"La Baguette Resturant Monitoring App",
+  "screenshot":"https://i.imgur.com/1fw7TrW.png",
+  "description":"Application built collaboratively with three others to help a restaurant management team keep track of inventory, staff and reservations, among other things.Built multi page application using HTML, CSS, SCSS, JavaScript ES6+ Responsible for utilizing Firebase for CRUD functionality of restaurant reservations Responsible for styling the application using BootStrap and SCSS Created vast amounts of data in JSON for testing purposes Project was completed and deployed entirely remote via Zoom",
+  "technologiesUsed":"HTML5, CSS3, ES6 JavaScript, Firebase",
+  "available":true,
+  "url":"https://la-baguette-cc.web.app/",
+  "githubUrl":"https://github.com/delindell/nutshell-stormtroopers-jedis"
   }
 }
